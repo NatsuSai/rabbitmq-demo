@@ -23,9 +23,9 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class SpringGuidesApplication {
-    private static final String topicExchangeName = "spring-boot-exchange";
+    static final String topicExchangeName = "spring-boot-exchange";
 
-    private static final String queueName = "spring-boot";
+    static final String queueName = "spring-boot";
 
     @Bean
     Queue queue() {
@@ -39,7 +39,7 @@ public class SpringGuidesApplication {
 
     @Bean
     Binding binding(Queue queue, TopicExchange exchange) {
-        return BindingBuilder.bind(queue).to(exchange).with("foo.bar.#");
+        return BindingBuilder.bind(queue).to(exchange).with("foo.bar.baz");
     }
 
     @Bean
