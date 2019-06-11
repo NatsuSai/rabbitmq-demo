@@ -7,5 +7,8 @@ Demo project for RabbitMQ
 
 ## rabbitmq in docker
 ```
+docker pull rabbitmq:3-management
 docker run -d -p15672:15672 -p5672:5672 -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin --name mq docker.io/rabbitmq:3-management
+# 遇到密码错误先执行一次退出登录，因为这个是公共的资源，不需要登录
+docker logout
 ```
