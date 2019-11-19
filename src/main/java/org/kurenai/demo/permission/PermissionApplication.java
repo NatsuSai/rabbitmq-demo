@@ -1,13 +1,13 @@
-package org.kurenai.rabbitmqdemo;
+package org.kurenai.demo.permission;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RabbitmqDemoApplication {
+public class PermissionApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RabbitmqDemoApplication.class, args);
+        SpringApplication.run(PermissionApplication.class, args);
     }
 
 }

@@ -1,9 +1,9 @@
 # rabbitmq-demo
 Demo project for RabbitMQ
 
-## 参考  
-- https://blog.battcn.com/2018/05/22/springboot/v2-queue-rabbitmq/ @唐亚峰
-- https://blog.battcn.com/2018/05/23/springboot/v2-queue-rabbitmq-delay/ @唐亚峰
+## Reference  
+- [初探RabbitMQ消息队列](https://blog.battcn.com/2018/05/22/springboot/v2-queue-rabbitmq/) by[唐亚峰](https://github.com/battcn)
+- [RabbitMQ延迟队列](https://blog.battcn.com/2018/05/23/springboot/v2-queue-rabbitmq-delay/) by[唐亚峰](https://github.com/battcn)
 
 ## rabbitmq in docker
 ```

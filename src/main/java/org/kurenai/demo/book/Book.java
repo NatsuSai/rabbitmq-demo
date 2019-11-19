@@ -1,4 +1,4 @@
-package org.kurenai.rabbitmqdemo;
+package org.kurenai.demo.book;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package org.kurenai.rabbitmqdemo;
+package org.kurenai.demo.book;
 
 import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;

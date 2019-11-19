@@ -1,4 +1,4 @@
-package org.kurenai.rabbitmqdemo;
+package org.kurenai.demo.book;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;

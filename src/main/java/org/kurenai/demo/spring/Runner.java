@@ -1,4 +1,4 @@
-package org.kurenai.springguides;
+package org.kurenai.demo.spring;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.boot.CommandLineRunner;
